@@ -1,0 +1,29 @@
+{
+  "name": "quizania-backend",
+  "version": "1.0.0",
+  "description": "Quiz Maker  Application",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "git push heroku master",
+    "server": "nodemon server.js"
+  },
+  "author": "Abhay Chauhan & Abhikant Singh",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.0",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.5.1",
+    "nodemailer": "^6.7.7",
+    "nodemon": "^2.0.19",
+    "otp-generator": "^4.0.0",
+    "pusher": "^5.1.1-beta",
+    "pdfkit": "^0.11.0",
+    "sendgrid": "^5.2.3",
+    "stripe": "^8.123.0",
+    "uuid": "^8.3.1"
+  }
+}
